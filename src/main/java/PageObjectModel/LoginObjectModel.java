@@ -38,8 +38,7 @@ public class LoginObjectModel extends BaseClass{
 		driver.findElement(forgotten).click();
 	}
 	public String warning() {
-		String expectedString = driver.findElement(warning).getText();
-		 
+		String expectedString = driver.findElement(warning).getText(); 
 		return expectedString;
 	}
 }
